@@ -1,0 +1,89 @@
+<html>
+    <head>
+        <title>OTTO FIX - Custom Car Audio & Electronics</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="Design.css">
+        <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    </head>
+    <body>
+        <header class="hs">
+            <section class="top-sec">
+            <h1>🔊 OTTO FIX 🔊</h1>
+            <img src="images/logo.png" class="logo" alt="OTTO FIX Logo">
+            </section>
+            <div id="d1">
+                 <nav class="navitems">
+                    <button><a href="#services">SERVICES</a></button>
+                    <button><a href="#about">ABOUT US</a></button>
+                    <button><a href="#contact">CONTACT</a></button>
+                    <button class="whatsapp-btn" onclick="openWhatsApp()"><i class="fab fa-whatsapp"></i> MESSAGE</button>
+                </nav>
+            </div>
+            <div id="d2">
+             <h3>SOUND WAVES THAT MOVE YOU</h3>
+                <p>
+                    We are specialised in designing and installing custom automated sound setups for your vehicle<br>
+                    with guaranteed quality assurance. Professional car audio systems and electronic installation services.
+                </p>
+            </div>
+                <button class="inquire-btn" onclick="scrollToContact()">INQUIRE NOW</button>
+                <button onclick="document.getElementById('services').scrollIntoView({behavior: 'smooth'})"><a href="#services">EXPLORE SERVICES</a></button>
+            
+            
+        </header>
+        <main class="ms">
+            <h1 id="services">OUR SERVICES</h1>
+            <div id="d3">
+                <h2>🎵 Custom Audio Systems</h2>
+                <p class="p1">Complete sound system overhauls, subwoofer enclosures, DSP tuning, and sound deadening for the ultimate acoustic environment.
+                </p>
+                <ul>
+                    <li>✓ Competition Grade Setups</li>
+                    <li>✓ Custom Fiber Glassing</li>
+                    <li>✓ OEM Integration</li>
+                    <li>✓ Professional Installation</li>
+                </ul>
+                <button onclick="openWhatsApp('I am interested in Custom Audio Systems')"><i class="fab fa-whatsapp"></i> INQUIRE</button>
+            </div><br>
+            <div id="d4">
+                <h2>⚙️ Electronics & Upgrades</h2>
+                <p>Advanced vehicle electronics, including android head units, dash cams, alarm systems, and precision wiring solutions.</p>
+                <ul>
+                    <li>✓ Android Head Units</li>
+                    <li>✓ GPS Trackers</li>
+                    <li>✓ Reverse Cameras</li>
+                    <li>✓ Alarm Systems</li>
+                </ul>
+                <button onclick="openWhatsApp('I am interested in Electronics & Upgrades')"><i class="fab fa-whatsapp"></i> INQUIRE</button>
+            </div><br>
+            <div id="d5">
+                <h2>🔧 Diagnostics & Repair</h2>
+                <p>Professional troubleshooting and repair of factory and aftermarket electronic systems to ensure reliability.</p>
+                <ul>
+                    <li>✓ System Tuning</li>
+                    <li>✓ Wiring Repair</li>
+                    <li>✓ Power Management</li>
+                    <li>✓ Fault Diagnosis</li>
+                </ul>
+                <button onclick="openWhatsApp('I need Diagnostics & Repair services')"><i class="fab fa-whatsapp"></i> INQUIRE</button>
+            </div><br>
+            <aside id="about">
+                <h1>PRECISION IN<br>EVERY DECIBEL</h1>
+                <p>At OTTO FIX, we don't just install speakers; we engineer soundstages. Every vehicle is different, and we treat each project as a custom acoustic challenge. With years of experience in car audio and vehicle electronics, we deliver quality you can hear.</p>
+            </aside>
+        </main>
+        <footer class="ft" id="contact">
+            <h1>READY TO UPGRADE?</h1>
+            <p>Transform your daily commute into a concert experience. Contact us today for a custom quote</p>
+            <div class="contact-section">
+                <h2>📞 Get in Touch</h2>
+                <p class="highlight">WhatsApp: <strong>+254 721120775</strong></p>
+                <button class="whatsapp-btn-footer" onclick="openWhatsApp()"><i class="fab fa-whatsapp"></i> CHAT ON WHATSAPP</button>
+                <p class="contact-info">All inquiries will be handled via WhatsApp</p>
+            </div>
+        </footer>
+        <script src="logic.js"></script>
+    </body>
+</html>

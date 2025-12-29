@@ -1,0 +1,304 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.hs {
+    text-align: center;
+}
+
+.top-sec>h1 {
+    font-family: 'pacifico', cursive;
+}
+
+button {
+    background-color: rgb(0, 42, 255);
+    font-weight: bold;
+    color: white;
+    border: none;
+    border-radius: 10px 5px 10px 5px;
+    padding: 12px 20px;
+    cursor: pointer;
+    margin: 10px 5px;
+    font-size: 14px;
+}
+
+button:hover {
+    box-shadow: 0 0 25px rgb(1, 1, 249);
+    transition: 0.3s;
+    transform: scale(1.0625);
+}
+
+.whatsapp-btn {
+    background-color: #25D366 !important;
+}
+
+.whatsapp-btn:hover {
+    box-shadow: 0 0 25px #25D366 !important;
+}
+
+.whatsapp-btn-footer {
+    background-color: #25D366 !important;
+    font-size: 16px;
+    padding: 15px 30px;
+}
+
+.whatsapp-btn-footer:hover {
+    box-shadow: 0 0 30px #25D366 !important;
+}
+
+a {
+    background-color: rgba(0, 42, 255, 0.605);
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+p {
+    color: white;
+    border-radius: 5px;
+    box-shadow:
+        0 0 10px rgba(0, 59, 254, 0.9);
+    background: rgba(0, 60, 255, 0.5);
+    padding: 15px;
+    margin: 10px 0;
+}
+
+h1 {
+    background-color: black;
+    color: white;
+    text-shadow: 0 0 10px rgba(0, 55, 255, 0.9);
+}
+
+h3 {
+    background: rgba(0, 4, 255, 0.5);
+    color: white;
+    font-weight: bold;
+    width: auto;
+    display: inline-block;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow:
+        0 0 10px rgba(0, 13, 255, 0.9);
+}
+
+#d2 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('images/speaker.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: solid 2px rgb(0, 34, 255);
+    border-radius: 10px 10px 10px 10px;
+    padding: 40px 20px;
+    margin: 20px 10px;
+}
+
+.logo {
+    height: 70px;
+    width: 70px;
+}
+
+.top-sec {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    border: 2px solid #00f5ff;
+    box-shadow: 0 0 10px #00f5ff;
+    border-radius: 5px 5px 5px 5px;
+    padding: 10px 20px;
+}
+
+h2 {
+    background: rgba(0, 47, 255, 0.586);
+    color: white;
+    font-weight: bold;
+    width: auto;
+    display: inline-block;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow:
+        0 0 10px rgba(4, 0, 255, 0.9);
+}
+
+#d3 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('images/img2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: solid 2px rgb(0, 26, 255);
+    border-radius: 10px 10px 10px 10px;
+    text-align: center;
+    padding: 30px 20px;
+    margin: 20px 10px;
+    transition: all 0.3s ease;
+}
+
+ul {
+    color: white;
+    border-radius: 5px;
+    box-shadow:
+        0 0 10px rgba(0, 51, 255, 0.569);
+    background: rgba(0, 17, 255, 0.5);
+    list-style-type: none;
+    padding: 15px;
+    margin: 15px 0;
+}
+
+li {
+    color: white;
+    border: none;
+    border-radius: none;
+    box-shadow:
+        0 0 10px rgba(0, 51, 255, 0);
+    background: rgba(0, 17, 255, 0);
+    padding: 8px 0;
+}
+
+.p1 {
+    color: white;
+    border-radius: 5px;
+    box-shadow:
+        0 0 10px rgba(0, 72, 255, 0.9);
+    background: rgba(0, 29, 248, 0.5);
+}
+
+#d4 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('images/img3.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: solid 2px rgb(0, 26, 255);
+    border-radius: 10px 10px 10px 10px;
+    text-align: center;
+    padding: 30px 20px;
+    margin: 20px 10px;
+    transition: all 0.3s ease;
+}
+
+#d5 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('images/img1.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: solid 2px rgb(0, 26, 255);
+    border-radius: 10px 10px 10px 10px;
+    text-align: center;
+    padding: 30px 20px;
+    margin: 20px 10px;
+    transition: all 0.3s ease;
+}
+
+#d5:hover {
+    transform: scale(1.0625);
+    box-shadow: 0 0 30px rgba(0, 26, 255, 1);
+}
+
+#d4:hover {
+    transform: scale(1.0625);
+    box-shadow: 0 0 30px rgba(0, 26, 255, 1);
+}
+
+#d3:hover {
+    transform: scale(1.0625);
+    box-shadow: 0 0 30px rgba(0, 26, 255, 1);
+}
+
+.ft>h1 {
+    text-align: center;
+}
+
+aside {
+    text-align: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('images/speaker.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 40px 20px;
+    border: 2px solid rgb(0, 34, 255);
+    border-radius: 10px;
+    margin: 30px 10px;
+}
+
+.ms>h1 {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.ft {
+    text-align: center;
+    padding: 30px 20px;
+    background: rgba(0, 0, 0, 0.95);
+}
+
+.navitems {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    background-color: black;
+    padding: 15px;
+}
+
+.contact-section {
+    background: rgba(37, 211, 102, 0.1);
+    padding: 30px;
+    border-radius: 10px;
+    border: 2px solid #25D366;
+    margin: 20px auto;
+    max-width: 500px;
+}
+
+.contact-section h2 {
+    color: #25D366;
+    text-shadow: 0 0 10px #25D366;
+}
+
+.highlight {
+    background: rgba(37, 211, 102, 0.2) !important;
+    font-size: 18px;
+    font-weight: bold;
+    color: #25D366 !important;
+    box-shadow: 0 0 15px rgba(37, 211, 102, 0.6) !important;
+}
+
+.contact-info {
+    background: rgba(0, 60, 255, 0.3) !important;
+    color: #87CEEB !important;
+    font-size: 14px;
+}
+
+.inquire-btn {
+    background-color: #FF6B6B !important;
+    font-size: 16px;
+    padding: 15px 30px;
+}
+
+.inquire-btn:hover {
+    box-shadow: 0 0 30px #FF6B6B !important;
+}
+
+@media (max-width: 768px) {
+    .top-sec {
+        flex-direction: column;
+        gap: 15px;
+    }
+    
+    .navitems {
+        flex-direction: column;
+    }
+    
+    button {
+        width: 100%;
+        max-width: 200px;
+    }
+    
+    .contact-section {
+        max-width: 90%;
+    }
+}
