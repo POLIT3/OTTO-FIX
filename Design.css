@@ -317,3 +317,58 @@ aside {
         max-width: 90%;
     }
 }
+
+/* Product examples inserted under #d3 and #d4 */
+.product-examples {
+    text-align: center;
+    margin: 10px 20px 25px;
+}
+.examples-label {
+    display: inline-block;
+    background: rgba(0, 47, 255, 0.35);
+    color: white;
+    padding: 10px 16px;
+    border-radius: 6px;
+    margin-bottom: 12px;
+    box-shadow: 0 0 10px rgba(0, 47, 255, 0.6);
+}
+.product-snippets {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 12px;
+}
+.prod-snippet {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+.prod-snippet img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 2px solid rgb(0, 26, 255);
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+    box-shadow: 0 0 10px rgba(0, 26, 255, 0.4);
+}
+.prod-snippet figcaption {
+    color: white;
+    margin-top: 6px;
+    padding: 6px 10px;
+    border-radius: 6px;
+    background: rgba(0, 17, 255, 0.2);
+    border: 2px solid rgba(0, 26, 255, 1);
+    box-shadow: 0 0 8px rgba(0, 26, 255, 0.4);
+}
+.prod-snippet:hover img {
+    transform: scale(1.0625);
+    box-shadow: 0 0 30px rgba(0, 26, 255, 1);
+}
+
+@media (max-width: 480px) {
+    .prod-snippet img { width: 80px; height: 80px; }
+}
