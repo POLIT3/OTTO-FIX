@@ -14,7 +14,7 @@ html {
 }
 
 .top-sec>h1 {
-    font-family: 'pacifico', cursive;
+    font-family: 'Brush Script MT', 'Lucida Handwriting', cursive;
 }
 
 button {
@@ -237,7 +237,7 @@ aside {
 }
 
 .navitems {
-    display: flex;
+    display: inline;
     justify-content: center;
     flex-wrap: wrap;
     gap: 10px;
